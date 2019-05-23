@@ -11,11 +11,11 @@
                         </a>
                     </div>
                     <ul class="uk-navbar-nav uk-margin-medium-left">
-                        <li class="uk-active"><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT US</a></li>
+                        <li class="uk-active"><a href="#">Home</a></li>
+                        <li><a href="#">About US</a></li>
                         <li><a href="#">TanaNaga</a></li>
                         <li><a href="#">GoloMori</a></li>
-                        <li><a href="#">CONTACT US</a></li>
+                        <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -51,19 +51,11 @@
     <div class="uk-offcanvas-bar uk-flex uk-flex-column">
 
         <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-            <li class="uk-active"><a href="#">Active</a></li>
-            <li class="uk-parent">
-                <a href="#">Parent</a>
-                <ul class="uk-nav-sub">
-                    <li><a href="#">Sub item</a></li>
-                    <li><a href="#">Sub item</a></li>
-                </ul>
-            </li>
-            <li class="uk-nav-header">Header</li>
-            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> Item</a></li>
-            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a></li>
-            <li class="uk-nav-divider"></li>
-            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Item</a></li>
+            <li class="uk-active"><a href="#">Home</a></li>
+            <li class="uk-nav-header">About US</li>
+            <li class="uk-nav-header">TanaNaga</li>
+            <li class="uk-nav-header">GoloMori</li>
+            <li class="uk-nav-header">Contact Us</li>
         </ul>
 
     </div>
