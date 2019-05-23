@@ -1,0 +1,338 @@
+.logo{
+    height: 55px;
+    padding: 5px 0;
+    margin-left: 40px;
+}
+
+.full-width{
+	width: 100%;
+}
+
+#min-padding-left{
+	padding-left: 20px;
+}
+
+.padding-0{
+	padding: 0.5rem;
+}
+
+.padding-1{
+	padding: 1rem;
+}
+
+.padding-2{
+	padding: 2rem;
+}
+
+.padding-3{
+	padding: 3.5rem;
+}
+
+.logo{
+    height: 60px;
+}
+
+.logo-detail-page{
+	margin-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: rgba(255,255,255,1);
+}
+
+.navbar {
+	background-color: #1b1e21;
+}
+
+.partner-title{
+	font-size: 1.6rem;
+	margin-bottom: 25px;
+}
+
+a:hover {
+    color: transparent;
+}
+
+.bg-black{
+    background-color: #0a0a0a;
+    color: #fefefe;
+}
+
+.bg-gray{
+    background-color: #1b1e21;
+    color: #fefefe;
+}
+
+.bg-gray-home{
+    background-color: #343a40;
+    color: #fefefe;
+}
+
+.logo-about{
+    width: 250px;
+}
+
+.border-about{
+    border: 1px solid #fefefe; padding: 80px; border-radius: 15px;
+}
+
+.contact-form{
+    padding: 50px;
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 800px) {
+    /* Styles */
+        .logo{
+            height: 55px;
+            padding: 5px 0;
+            margin-right: 50px;
+            float: right;
+        }
+    }
+
+
+
+/* Slider */
+/* @keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+
+    body { margin: 0; }
+    div#slider { overflow: ; }
+    div#slider figure img { width: 20%; float: left; }
+    div#slider figure {
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 30s slidy infinite;
+    } */
+
+/* Slider javascript */
+.cbp-fwslider {
+	position: relative;
+	margin: 0 0 0px;
+	overflow: hidden;
+	padding: 0;
+}
+
+.cbp-fwslider ul {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	list-style-type: none;
+}
+
+.cbp-fwslider ul li {
+	transform: translateZ(0);
+	float: left;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.cbp-fwslider ul li > a,
+.cbp-fwslider ul li > div {
+	display: block;
+	text-align: center;
+	outline: none;
+}
+
+.cbp-fwslider ul li > a img {
+	border: none;
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.cbp-fwslider nav span {
+	/* position: absolute; */
+	position: relative;
+	/* top: 50% ; */
+	width: 50px;
+	height: 100px;
+	/* background: #47a3da; */
+	color: #fff;
+	font-size: 60px;
+	text-align: center;
+	/* margin-top: -50px; */
+	line-height: 100px;
+	cursor: pointer;
+	font-weight: normal;
+}
+
+.cbp-fwslider nav span:hover {
+	background: #0a0a0a;
+}
+
+.cbp-fwslider nav span.cbp-fwnext {
+    top: 40vh;
+	right: 8vh;
+}
+
+.cbp-fwslider nav span.cbp-fwprev {
+    /* right: 1700%; */
+    right: 160vh;
+    top: 40vh;
+    text-align: left;
+}
+
+.cbp-fwdots {
+    position: absolute;
+    padding-bottom: 10px;
+	bottom: 0px;
+	white-space: nowrap;
+	text-align: center;
+	width: 100%;
+}
+
+.cbp-fwdots span {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: #fefefe;
+	margin: 4px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.cbp-fwdots span:hover {
+	background: #0a0a0a;
+}
+
+.cbp-fwdots span.cbp-fwcurrent {
+	background: #0a0a0a;
+	box-shadow: 0 0 0 2px #fefefe;
+	transition: box-shadow 0.2s ease-in-out;
+}
+
+/* Carousel Section */
+.carousel {
+	margin-top: 0px;
+}
+
+.carousel-item {
+    width: 100vw;
+    min-height: 50vw;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.fixed-top {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+		background-color: #1b1e21;
+		color: #fefefe;
+	}
+	a.nav-link{
+		padding: 22px;
+		font-size: 1.2rem;
+		text-align: center;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.fixed-top {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+		background-color: #1b1e21;
+		color: #fefefe;
+	}
+	a.nav-link{
+		padding: 22px;
+		font-size: 1.2rem;
+		text-align: center;
+	}
+}
+.playcontainer {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+ background: rgba(0, 0, 0, 0.5);
+}
+
+.playcontainer:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.image_100 {
+    /* The image used */
+	width: 100% !important;
+	padding-top: 2em;
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.fixed-top {
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+		background-color: #1b1e21;
+		color: #fefefe;
+	}
+	a.nav-link{
+		padding: 22px;
+		font-size: 1.2rem;
+		text-align: center;
+	}
+}
+
+#aboutus {
+	padding: 2rem;
+}
+
+.trsp{
+  background-color: #212121;
+}
